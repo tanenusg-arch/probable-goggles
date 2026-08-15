@@ -1,0 +1,45 @@
+{
+  "name": "telegram-reseller-bot",
+  "version": "1.0.0",
+  "description": "G2Bulk Telegram reseller bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "uuid": "^9.0.1"
+  },
+  "config": {
+    "BOT_TOKEN": "8804113450:AAEeNfx9wmDwry-jjbTvK0MCUeut3jZMSt0",
+    "G2BULK_API_KEY": "e3c640d2c6a2b013f04d9ba4140aea95bf579a4b098a3e6979f594b8de624031",
+    "G2BULK_BASE_URL": "https://api.g2bulk.com/v1",
+    "ADMIN_USERNAME": "@Dev_LecteR",
+    "ADMIN_CHAT_ID": "[8453713398, 8636992436, 6153912689]",
+    "UPDATES_CHANNEL": "@Exynosshop",
+    "SUPPORT_WEBSITE": "",
+    "TELEBIRR_PHONE": "0927172626",
+    "CBE_PHONE": "1000000192914",
+    "EXPECTED_RECEIVER_NAME": "Weldesemayat",
+    "CBE_RECEIVER_NAME": "Ferehiwot",
+    "MIN_DEPOSIT_BIRR": "50",
+    "MIN_WITHDRAW_BIRR": "100",
+    "MAX_DEPOSIT_LIMIT": "100000",
+    "MAX_WITHDRAW_LIMIT": "50000",
+    "MAX_DAILY_ORDERS": "50",
+    "MAX_TXN_AGE_MINUTES": "15",
+    "EXCHANGE_RATE": "0",
+    "MARKUP_PERCENT": "0",
+    "VERIFY_API_BASE_URL": "https://verifyapi.leulzenebe.pro",
+    "VERIFY_API_KEY": "sk_live_d82a6778a32490185e6eed0fbc2a00da0be3fe2467a4d8d3",
+    "FIRESTORE_PROJECT_ID": "calcium-medium-1zp2g",
+    "FIRESTORE_DATABASE_ID": "ai-studio-remixuntitled-f88a34da-8ff4-4244-ac0c-da9284afc9f5",
+    "FIRESTORE_API_KEY": "AIzaSyBLNq9vnIB_K5YJhWnaGiSy6KXOzXto_mk",
+    "PROOF_CHANNEL_ID": "-1004442339437",
+    "REPORT_CHANNEL_ID": "-1004442339437",
+    "ADMIN_PASSWORD": "EXYNOS39@#$%&*HSSH671S",
+    "REFERRAL_REWARD": "2",
+    "CACHE_TTL": "300"
+  }
+}
